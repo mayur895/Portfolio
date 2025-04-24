@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayur Singh - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portfolio-container">
+    <!-- Navigation -->
+    <nav class="portfolio-nav">
+        <div class="container">
+          <div class="nav-content">
+            <h1 class="nav-title">Portfolio</h1>
+            <div class="nav-right">
+              <div class="nav-links">
+                <button data-section="about" class="nav-link">about</button>
+                <button data-section="skills" class="nav-link">skills</button>
+                <button data-section="projects" class="nav-link">projects</button>
+                <button data-section="contact" class="nav-link">contact</button>
+              </div>
+              <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌓</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container text-center">
+        <h1 class="hero-title">Mayur Singh</h1>
+        <p class="hero-subtitle">B.Tech Student | MERN Stack Developer</p>
+        <button id="contact-btn" class="contact-button">Get in Touch</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="hidden-element about-content">
+          <p>
+            I am Mayur Singh, a second-year B.Tech student passionate about web development and problem-solving. Currently focused on mastering the MERN (MongoDB, Express.js, React, Node.js) stack.
+          </p>
+          <p>
+            I have completed comprehensive coursework in MERN stack development and Data Structures & Algorithms (DSA). My project portfolio includes various applications such as a Todo App, Minesweeper game, and Tic-tac-toe, demonstrating my practical coding skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="hidden-element skill-card">JavaScript</div>
+          <div class="hidden-element skill-card">React</div>
+          <div class="hidden-element skill-card">TypeScript</div>
+          <div class="hidden-element skill-card">Node.js</div>
+          <div class="hidden-element skill-card">HTML5</div>
+          <div class="hidden-element skill-card">CSS3</div>
+          <div class="hidden-element skill-card">Tailwind CSS</div>
+          <div class="hidden-element skill-card">Git</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="hidden-element project-card">
+            <div class="project-content">
+              <div class="project-image"><img src="" alt="todo"></div>
+              <h3 class="project-title">Todo App</h3>
+              <p class="project-description">A full-stack todo application built with the MERN stack, featuring CRUD operations and user authentication.</p>
+              <button class="project-button"><a href="#"></a></button>
+            </div>
+          </div>
+          <div class="hidden-element project-card">
+            <div class="project-content">
+              <div class="project-image"><img src="" alt="todo"></div>
+              <h3 class="project-title">Minesweeper</h3>
+              <p class="project-description">A classic Minesweeper game implementation with React, featuring customizable grid sizes and difficulty levels.</p>
+              <button class="project-button"><a href="#"></a></button>
+            </div>
+          </div>
+          <div class="hidden-element project-card">
+            <div class="project-content">
+              <div class="project-image"><img src="" alt="todo"></div>
+              <h3 class="project-title">Tic-tac-toe</h3>
+              <p class="project-description">An interactive Tic-tac-toe game built with React, featuring a smart AI opponent and multiplayer mode.</p>
+              <button class="project-button"><a href="#"></a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-form-container">
+          <div class="contact-form-wrapper">
+            <form class="contact-form">
+              <div class="form-group">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-input">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Message</label>
+                <textarea rows="4" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+      <div class="container text-center">
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
