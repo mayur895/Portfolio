@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.querySelectorAll('.hidden-element').forEach((el) => observer.observe(el));
   
-    // Smooth scrolling for navigation yes it is iuvgm
+    // Smooth scrolling for navigation yes it is navigating
     function scrollToSection(id) {
       const element = document.getElementById(id);
       if (element) {
