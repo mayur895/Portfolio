@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    //event listener  
+    //event listener   jlnjjj
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
