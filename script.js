@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   
-    // Add click event to all navigation links
+    // Add click event to all navigation links ljhgbhhiuhj
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', function() {
         const sectionId = this.getAttribute('data-section');
