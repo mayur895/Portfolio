@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    //event listener    yup fgfb  yesmbnro kddkdkd
+    //event listener    
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.querySelectorAll('.hidden-element').forEach((el) => observer.observe(el));
   
-    // Smooth scrolling for navigation yes it is navigatinghrough the pages is on kyitjuthh nbjh hmhk,bkmbkm fgfhbhbbcb vggngvnvn 
+    // Smooth scrolling for navigation  
     function scrollToSection(id) {
       const element = document.getElementById(id);
       if (element) {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   
-    // Add click event to all navigation links ljhgbhhiuhj
+    // Add click event to all navigation 
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', function() {
         const sectionId = this.getAttribute('data-section');
