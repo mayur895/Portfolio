@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    //event listener     tgvhfhfg j fjnfvnjv mj kdsmskd ld,c gcjngm
+    //event listener     tgvhfhfg j fjnfvnjv mj kdsmskd ld,c gcjngm lldcdc
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
