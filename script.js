@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.querySelectorAll('.hidden-element').forEach((el) => observer.observe(el));
   
-    // Smooth scrolling for navigation  vjtghjtgj nfhghfbhfn
+    // Smooth scrolling for navigation  vjtghjtgj nfhghfbhfn,jhjioo'pl
     function scrollToSection(id) {
       const element = document.getElementById(id);
       if (element) {
