@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    //event listener     dmckdc
+    //event listener
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     document.querySelectorAll('.hidden-element').forEach((el) => observer.observe(el));
   
-    // Smooth scrolling for navigation  vjtghjtgj nfhghfbhfn,jhjioo'pl
+    // Smooth scrolling for navigation  
     function scrollToSection(id) {
       const element = document.getElementById(id);
       if (element) {
